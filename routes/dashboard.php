@@ -42,7 +42,6 @@ $_SESSION['groupsdata'] = $groupsdata;
 </head>
 <body>
 
-<<<<<<< HEAD
     <div id="mainSection">
         <div id="headerSection">
             <a href="../"><button id="back-btn"> Back</button></a>
@@ -101,47 +100,6 @@ $_SESSION['groupsdata'] = $groupsdata;
                     echo "<div>No groups available to vote for.</div>";
                 }
                 ?>
-=======
-    <header class="header">
-        <a href="#" id="back-btn" class="btn">Back</a>
-        <h1> Voting System</h1>
-        <a href="#" id="logout-btn" class="btn">Logout</a>
-    </header>
-
-    <main id="dashboard-container">
-
-        <section id="profile-section" class="card">
-            <img id="https://thumbs.dreamstime.com/b/illustration-teenage-boy-glasses-illustration-teenage-boy-glasses-388809862.jpg?w=768" alt="Profile Picture">
-            <p><strong>Name:</strong> Raja</p>
-            <p><strong>Mobile:</strong> 123456789</p>
-            <p><strong>Address:</strong>Venkateshpuram, Bengaluru</p>
-            <p><strong>Status:</strong> <span class="status-badge voted">Voted</span></p>
-        </section>
-
-        <section id="candidates-section" class="card">
-            <h2>Groups</h2>
-
-            <div class="candidate-card">
-                <div class="candidate-details">
-                    <p><strong>Group Name:</strong>TVK</p>
-                    <p><strong>Votes:</strong> 7</p>
-                    <div class="status-badge voted">Voted</div>
-                </div>
-                <div class="candidate-symbol">
-                    <img src="https://www.pngfind.com/pngs/m/57-574601_black-and-white-cow-png-cow-logo-transparent.png" alt="Group Symbol">
-                </div>
-            </div>
-
-            <div class="candidate-card">
-                <div class="candidate-details">
-                    <p><strong>Group Name:</strong>ABC</p>
-                    <p><strong>Votes:</strong> 0</p>
-                    <div class="status-badge voted">Voted</div>
-                </div>
-                <div class="candidate-symbol">
-                     <img src="https://static.vecteezy.com/system/resources/previews/020/639/849/large_2x/hand-symbol-hand-gesture-linear-icon-hand-geometric-style-icon-hand-sign-language-icon-illustration-vector.jpg" alt="Group Symbol">
-                </div>
->>>>>>> f91c51c03be1ec58ed66018dea77d64a3515d0f1
             </div>
         </div>
     </div>
